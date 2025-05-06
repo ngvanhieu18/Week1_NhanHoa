@@ -48,7 +48,21 @@ sudo cp -r /tmp/wordpress /var/www/html/
 sudo chown -R www-data:www-data /var/www/html/wordpress  
 sudo chmod -R 755 /var/www/html/wordpress  
 
+Bước 4: Cấu hình WordPress
+cd /var/www/html/wordpress  
+cp wp-config-sample.php wp-config.php  
+nano wp-config.php  
+*wp-config-sample.php: Đây là tên của tệp nguồn mà bạn muốn sao chép. Đây là một tệp cấu hình mẫu đi kèm với WordPress. Nó chứa các thiết lập mặc định và các chỗ trống để bạn điền thông tin cấu hình quan trọng.*  
+*wp-config.php: Đây là tên của tệp đích mà bạn muốn tạo bằng cách sao chép tệp nguồn. WordPress không sử dụng trực tiếp tệp wp-config-sample.php. Thay vào đó, nó cần một tệp có tên wp-config.php chứa các thông tin cấu hình cụ thể cho website của bạn (ví dụ: thông tin kết nối cơ sở dữ liệu).*    
 
+Tìm và chỉnh sửa các dòng sau:  
+define( 'DB_NAME', 'wordpress' );  
+define( 'DB_USER', 'hieu' );  
+define( 'DB_PASSWORD', '123456' );  
+define( 'DB_HOST', 'localhost' );  
+
+Tạo thành công WP lên trên LAMP stack
+![Trang quản trị WP](https://github.com/user-attachments/assets/c567a844-fc77-4ed7-a704-e8c878cdf684)
 
 
  
