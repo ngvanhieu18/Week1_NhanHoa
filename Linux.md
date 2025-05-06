@@ -62,7 +62,11 @@ define( 'DB_PASSWORD', '123456' );
 define( 'DB_HOST', 'localhost' );  
 
 Tạo thành công WP lên trên LAMP stack
-![Trang quản trị WP](https://github.com/user-attachments/assets/c567a844-fc77-4ed7-a704-e8c878cdf684)
+![Trang quản trị WP](https://github.com/user-attachments/assets/c567a844-fc77-4ed7-a704-e8c878cdf684)  
+
+Tạo thành công 1 blog cá nhân
+![image](https://github.com/user-attachments/assets/cbfebde7-c324-4843-a83c-ce6cea885f93)
+
 
 
  
