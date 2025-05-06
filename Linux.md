@@ -37,11 +37,18 @@ tar -xvzf latest.tar.gz
 Bước 2: Tạo database và user trong MySQL  
 
 CREATE DATABASE wordpress;  
-CREATE USER 'wpuser'@'localhost' IDENTIFIED BY 'yourpassword';  
-GRANT ALL PRIVILEGES ON wordpress.* TO 'wpuser'@'localhost';  
+CREATE USER 'hieu'@'localhost' IDENTIFIED BY '123456';  
+GRANT ALL PRIVILEGES ON wordpress.* TO 'hieu'@'localhost';  
 FLUSH PRIVILEGES;  
 EXIT;  
-![Tạo DB trong mysql](https://github.com/user-attachments/assets/7da4a194-378d-4661-a969-cf1fa3641d30)
+![Tạo DB trong mysql](https://github.com/user-attachments/assets/7da4a194-378d-4661-a969-cf1fa3641d30)   
+
+Bước 3: Di chuyển WordPress vào thư mục web  
+sudo cp -r /tmp/wordpress /var/www/html/  
+sudo chown -R www-data:www-data /var/www/html/wordpress  
+sudo chmod -R 755 /var/www/html/wordpress  
+
+
 
 
  
