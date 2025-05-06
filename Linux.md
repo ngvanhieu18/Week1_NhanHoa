@@ -70,10 +70,7 @@ Tạo thành công 1 blog cá nhân
 
 
  ## Triển khai website wordpress trên LEMP #  
-bước 1:Tạm thời tắt apache và vô hiệu hóa
-sudo systemctl stop apache2  
-sudo systemctl disable apache2  
-
+Bước 1:  
 Tải Nginx  
 sudo apt install nginx
 
