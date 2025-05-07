@@ -69,10 +69,7 @@ Tạo thành công 1 blog cá nhân
 
 
 
- ## Triển khai website wordpress trên LEMP #  
-Bước 1:  
-Tải Nginx  
-sudo apt install nginx
+
 
 
 
