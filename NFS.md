@@ -26,6 +26,7 @@ sudo exportfs -v
 
 
 ![image](https://github.com/user-attachments/assets/06d948de-3a2a-4124-850b-4b04295799bc)  
+# NFS giữa client và server
 -Cài đặt nfsclient  
 sudo apt update  
 sudo apt install nfs-common -y  
