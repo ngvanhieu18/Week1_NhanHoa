@@ -79,8 +79,67 @@ BƯỚC 2: CẤU HÌNH PROMETHEUS ĐỂ SCRAPE NODE EXPORTER
 ![image](https://github.com/user-attachments/assets/34ebb810-5db4-4c28-b81b-955f4773e413)    
 
 # Monitor mysql  
-- Cài đặt mysql  
-![image](https://github.com/user-attachments/assets/55afa254-33ea-460b-b67b-da7bcad19672)
+- Cài đặt mysql
+
+cd /opt  
+wget https://github.com/prometheus/mysqld_exporter/releases/download/v0.15.1/mysqld_exporter-0.15.1.linux-amd64.tar.gz  
+tar xvf mysqld_exporter-0.15.1.linux-amd64.tar.gz  
+mv mysqld_exporter-0.15.1.linux-amd64 mysqld_exporter
+
+![image](https://github.com/user-attachments/assets/55afa254-33ea-460b-b67b-da7bcad19672)  
+
+BƯỚC 3: CẤU HÌNH MYSQL EXPORTER  
+Cách 2 – cấu hình trong service (an toàn hơn):
+
+Tạo service file:  
+nano /etc/systemd/system/mysqld_exporter.service  
+
+[Unit]
+Description=Prometheus MySQL Exporter
+After=network.target
+
+[Service]
+User=root
+ExecStart=/opt/mysqld_exporter/mysqld_exporter \
+  --config.my-cnf=/opt/mysqld_exporter/.my.cnf
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+Tạo file /opt/mysqld_exporter/.my.cnf:
+
+[client]
+user=exporter
+password=securepassword  
+
+BƯỚC 4: START EXPORTER  
+sudo systemctl daemon-reload  
+sudo systemctl start mysqld_exporter  
+sudo systemctl enable mysqld_exporter  
+
+BƯỚC 5: CẤU HÌNH PROMETHEUS  
+
+  - job_name: 'mysql'
+    static_configs:
+      - targets: ['192.168.182.130:9104']
+
+
+  restart Prometheus:  
+  sudo systemctl restart prometheus
+
+BƯỚC 6: IMPORT DASHBOARD TRONG GRAFANA  
+
+Truy cập Grafana  
+Dashboard → Import  
+Nhập ID sau: 7362   
+Chọn Prometheus làm datasource → Import  
+
+
+
+![image](https://github.com/user-attachments/assets/f538a1ed-f6d6-4b32-a76f-15c8ee8f279f)  
+
+
 
 
 
