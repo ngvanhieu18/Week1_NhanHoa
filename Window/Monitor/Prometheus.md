@@ -72,6 +72,16 @@ BƯỚC 1: CÀI NODE EXPORTER TRÊN SERVER LINUX
 BƯỚC 2: CẤU HÌNH PROMETHEUS ĐỂ SCRAPE NODE EXPORTER  
 ![image](https://github.com/user-attachments/assets/4449f022-e78d-40f9-950e-a3ea7b78fca3)  
 
+- Cấu hình file cấu hình trong prometheus
+
+![image](https://github.com/user-attachments/assets/20a73dfe-b9e7-4ed2-9edc-2a7f0359b224)
+
+![image](https://github.com/user-attachments/assets/34ebb810-5db4-4c28-b81b-955f4773e413)  
+
+
+
+
+
 
 
 
