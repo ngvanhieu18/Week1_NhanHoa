@@ -76,7 +76,15 @@ BƯỚC 2: CẤU HÌNH PROMETHEUS ĐỂ SCRAPE NODE EXPORTER
 
 ![image](https://github.com/user-attachments/assets/20a73dfe-b9e7-4ed2-9edc-2a7f0359b224)
 
-![image](https://github.com/user-attachments/assets/34ebb810-5db4-4c28-b81b-955f4773e413)  
+![image](https://github.com/user-attachments/assets/34ebb810-5db4-4c28-b81b-955f4773e413)    
+
+# Monitor mysql  
+- Cài đặt mysql  
+![image](https://github.com/user-attachments/assets/55afa254-33ea-460b-b67b-da7bcad19672)
+
+
+
+
 
 
 
