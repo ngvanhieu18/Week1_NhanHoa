@@ -36,4 +36,13 @@
 
 ![image](https://github.com/user-attachments/assets/b8a4eb82-3b50-4185-b811-504c1a40d509)  
 ![Cài đặt CGI](https://github.com/user-attachments/assets/a8faaae2-8bba-4743-bce9-d2c1fe47b45f)  
+![image](https://github.com/user-attachments/assets/4b08c838-dd9b-4b4e-949e-bff21c3472ef)  
+![image](https://github.com/user-attachments/assets/f800088c-61cb-4323-975f-54088de2b993)  
+![image](https://github.com/user-attachments/assets/79c0e6b3-ca2d-41c5-8f54-641f6ba05410) 
+
+- Triển khai thành công website php
+![image](https://github.com/user-attachments/assets/75ec7f07-60d7-4520-a428-0ad0ee418511)
+
+
+
 
