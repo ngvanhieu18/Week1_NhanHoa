@@ -31,4 +31,12 @@
 
 ![Cài đặt .NET](https://github.com/user-attachments/assets/b4060829-c618-4a86-b667-b0938f77d4b7)  
 
+# LAB3: Triển khai PHP trên IIS  
+
+![image](https://github.com/user-attachments/assets/b8a4eb82-3b50-4185-b811-504c1a40d509)  
+![Cài đặt CGI](https://github.com/user-attachments/assets/a8faaae2-8bba-4743-bce9-d2c1fe47b45f)  
+
+
+
+
 
