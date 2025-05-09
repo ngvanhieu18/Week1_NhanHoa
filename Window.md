@@ -1,4 +1,4 @@
-# Triển khai html basic trên IIS   
+# LAB1:Triển khai html basic trên IIS   
 
 - Cài đặt IIS trên Winserver  
 ![Cài đặt IIS](https://github.com/user-attachments/assets/6d77065d-efd4-4ca5-8dbb-560600f3eabc)    
@@ -14,11 +14,20 @@
 
 ![Triển khai html trên IIS](https://github.com/user-attachments/assets/675c6347-7b77-4da3-890a-a8f0e0aa1942)  
 
-# Triển khai ASP classic trên IIS  
+# LAB2:Triển khai ASP classic trên IIS  
+- Cài đặt ASP
 
 ![Cài đặt ASP](https://github.com/user-attachments/assets/c7fb68e3-d3af-42dc-b780-5163da91bd5c)  
 
-![Chạy thành công ASP ](https://github.com/user-attachments/assets/92d7dbe1-f8d1-4504-8f24-632ed57cd8f2)  
+- Cấu hình địa chỉ IP,port cho trang web  
+
+![Cấu hình địa chỉ IP và port](https://github.com/user-attachments/assets/2f217652-97f4-40d2-866d-6bdd7a1381b2)  
+
+-Triển khai thành công website  
+
+![Triển khai thành công website ASP lên trên IIS](https://github.com/user-attachments/assets/d476f00f-cda0-4bce-b853-aa999bd43339)  
+
+
 
 ![Cài đặt .NET](https://github.com/user-attachments/assets/b4060829-c618-4a86-b667-b0938f77d4b7)  
 
